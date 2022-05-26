@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  redis:
+    host: redis
+
+redis:
+  ttl: 60000
+
+collarClient:
+  getCollarByIdUrl: https://5d96585ca824b400141d26b2.mockapi.io/halter/device/{collarId}/status
